@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"  android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="wrap_content" android:background="@color/colorPrimaryDark"
+    android:padding="5dp" android:layout_gravity="center"  >
+
+
+    <ImageView
+        android:id="@+id/imagecancel1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_close_black_24dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorwhite"
+            android:text="Create new Event" />
+
+        <TextView
+            android:id="@+id/txtConfirm1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorwhite"
+            android:text="Please choose the date which is from today and day after. Click to the date below to change date." />
+
+
+        <TextView
+            android:id="@+id/txtselectdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorwhite"
+             />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:orientation="horizontal"
+            android:padding="10dp"
+            >
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/button_style"
+                android:text="Create"
+                android:layout_marginRight="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
